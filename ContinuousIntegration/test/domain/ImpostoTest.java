@@ -48,4 +48,8 @@ public class ImpostoTest {
         assertEquals(10.0, imposto.calcula(orcamento), Double.MIN_VALUE);
     }
     
+    @Test
+    public void testToFail() {
+        assertEquals(1, 2);
+    }
 }
